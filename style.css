@@ -1,0 +1,90 @@
+body{
+    background-color: #5FD6E3;
+    background-image: linear-gradient(to left, #EAC22B, #5FD6E3);
+}
+.cinza{
+    color: #707070;
+    font-family: sans-serif;
+}
+.borda{
+    border: #707070 1px solid;
+}
+#principal{
+    width: 630px;
+    height: 780px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: #707070 1px solid;
+    border-radius: 7%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+#cadastro{
+    text-align: center;
+}
+#cadastro h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#cadastro p{
+    margin: 0;
+}
+
+#secao{
+    margin: 40px 50px;
+}
+#formulario{
+
+    position: relative;
+}
+
+#posicao{
+    position: absolute;
+    right: 5px;
+    bottom: 67px;
+}
+input[type=text]{
+    width: 250px;
+    height: 25px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: #707070 1px solid;
+}
+input[type=radio]{
+    width: 15px;
+    height: 15px;
+
+}
+select{
+    width: 125px;
+    height: 25px;
+    border-radius: 5px;
+    border: #707070 1px solid;
+}
+
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+}
+textarea{
+    width: 530px;
+    height: 100px;
+    border-radius: 5px;
+    border: #707070 1px solid;
+}
+input[type=submit]{
+    width: 125px;
+    height: 25px;
+    border-radius: 5px;
+    border: #707070 1px solid;
+    color: white;
+    background-color: #615F5F;
+    margin-top: 20px;
+    position: relative;
+    left: 200px;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color: #615F5F;
+}

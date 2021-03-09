@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="principal">
+
+        <div id="cadastro">
+            <h1 class="cinza">CADASTRO DE DEVs</h1>
+            <p class="cinza">Complete suas informações</p> 
+        </div>
+
+        <div id="secao">
+            <div id="formulario">
+
+                <form>
+                    
+                    <div>
+                        <label for="nome"  class="cinza">Nome</label><br>
+                        <input type="text" name="nome"><br>
+                    </div>
+
+                    <div id="posicao">
+                        <label for="sobrenome" class="cinza">Sobrenome</label><br>
+                        <input type="text" name="sobrenome"><br>
+                    </div>
+                    <div>
+                        <label for="email" class="cinza">Email</label><br>
+                        <input type="text" name="email"><br>
+                    </div>
+
+                </form>
+        
+            </div>
+
+            
+            <p class="cinza">De qual lado da aplicação você desenvolve?</p>
+
+            <form>
+                <input type="radio" name="lado" value="F">
+                <label for="F" class="cinza">Front-end</label><br>
+                <input type="radio" name="lado" value="B">
+                <label for="B" class="cinza">Back-end</label><br>
+                <input type="radio" name="lado" value="FS">
+                <label for="FS" class="cinza">FullStack</label><br>
+            </form>
+
+            <p class="cinza">Senioridade</p>
+
+            <form>
+                <select>
+                    <option>Selecione</option>
+                    <option value="junior">Junior</option>
+                    <option value="pleno">Pleno</option>
+                    <option value="senior">Senior</option>
+                  </select>
+            </form>
+
+            <p class="cinza">Selecione as tecnologias que você utiliza:</p>
+
+            <form>
+                <input type="checkbox" name="html" value="HTML">
+                <label for="HTML" class="cinza">HTML</label>
+                <input type="checkbox" name="css" value="CSS">
+                <label for="CSS" class="cinza">CSS</label>
+                <input type="checkbox" name="javascript" value="JS">
+                <label for="JS" class="cinza">JavaScript</label>
+                <input type="checkbox" name="php" value="PHP">
+                <label for="PHP" class="cinza">PHP</label>
+                <input type="checkbox" name="c" value="C">
+                <label for="C" class="cinza">C#</label>
+                <input type="checkbox" name="python" value="Python">
+                <label for="Python" class="cinza">Python</label>
+                <input type="checkbox" name="java" value="Java">
+                <label for="Java" class="cinza">Java</label>
+
+            </form>
+
+            <p class="cinza">Conte um pouco mais sobre a sua experiência:</p>
+
+            <form>
+            <textarea name="campo"></textarea>
+            <input type="submit" value="Finalizar">
+            </form>
+            
+            
+        </div>
+
+    </div>
+
+ 
+    
+</body>
+</html>
